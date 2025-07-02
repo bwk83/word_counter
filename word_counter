@@ -1,0 +1,5 @@
+#Word Counter
+user_sentence = input("Please enter a sentence: ")
+words = user_sentence.split()
+word_count = len(words)
+print("Your sentence contains", word_count, "words.")
